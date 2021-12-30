@@ -60,3 +60,31 @@ Print the entered i/o m
 123.562263
 13221313.216516
 */
+
+// ex-2
+#include <stdio.h>
+
+int main(void)
+{
+    int i;
+    float f;
+    double d;
+    char c;
+    
+    printf("Enter the int, float, double n char:");
+    scanf("%d%f%lf\n%c", &i,&f,&d,&c);
+    
+    printf("Print the entered i/o \n%d\n%f\n%lf\n%c\n%d\n", i,f,d,c,c);
+    return 0;
+}
+//output:- 
+/*Enter the int, float, double n char:12
+12.33562
+132566.261531515
+n
+Print the entered i/o 
+12
+12.335620
+132566.261532
+n
+110*/
